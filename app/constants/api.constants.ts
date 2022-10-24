@@ -9,7 +9,7 @@ export const API_ENDPOINT = `https://api.unsplash.com`
 * This key can be set into react-native dotenv or babel presets. Using it here just for the demo.
 *
 *  */
-export const ACCESS_KEY = "Dk24of4uNB_ghjUEPU-svzLpbcWvl3UmyguS9qX-CsE"
+export const ACCESS_KEY = "" // Put your access key here
 
 
 

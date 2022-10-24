@@ -89,7 +89,7 @@ export const HomeScreen: React.FunctionComponent<HomeScreenProps> = (props) => {
                   isLoading && images.length === 0 ?
                       <LoadProgress />
                           :
-                      <FlatList
+                      (<FlatList
                           data={images}
                           renderItem={renderItem}
                           keyExtractor={listKeyExtractor}
@@ -97,7 +97,7 @@ export const HomeScreen: React.FunctionComponent<HomeScreenProps> = (props) => {
                           onEndReachedThreshold={0.5}
                           onEndReached={onEndReached}
                           ListFooterComponent={ListFooterComponent}
-                      />
+                      />)
               }
               {
                   emptyState && images.length === 0 ? emptyView() : null
