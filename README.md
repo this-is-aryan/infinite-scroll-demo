@@ -14,4 +14,9 @@
 
 </ol>
 
+For production version, use this command: 
+<code>expo start --no-dev --minify </code>
+
+This version will be faster and will not have any developer mode errors/warnings.
+
 <b><u>Thank you!</u></b>
